@@ -34,6 +34,7 @@ for doc_info in index_json:
         md_str = markdown.markdown(f.read(), extensions=['fenced_code', 'tables', 'codehilite'])
         output = output.replace('<insert-markdown></insert-markdown>', md_str)
         output = htmlmin.minify(output, remove_empty_space=True, keep_pre=True)
+        output = '<!DOCTYPE html>' + output
         with open(root_dir + '/docs/' + slug + '.html', 'w+', encoding='utf-8') as outf:
             outf.write(output)
 

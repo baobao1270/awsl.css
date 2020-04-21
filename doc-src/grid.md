@@ -5,6 +5,8 @@
 
 IE 默认情况下，会回退到不支持网格的模式，解决方法见“IE 兼容性”节。
 
+**警告：容器类 `aw-vh-container` 不能和网格类同时在同一元素上使用，否则在 IE 浏览器上会出现渲染错误。请把网格类作为容器类的子元素使用。**
+
 <style>
 .demo-0, .demo-1 { padding: .5em; margin-bottom: 16px; text-align: center; }
 .demo-0 { background-color: #ddd; }
