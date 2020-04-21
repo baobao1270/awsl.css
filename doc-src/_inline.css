@@ -1,0 +1,41 @@
+.doc {
+	line-height: 1.8 !important;
+}
+
+.aw-p {
+	padding: 16px;
+}
+
+.menu h3 {
+	margin-top: 0;
+}
+
+.menu ol {
+	margin: 0;
+	padding-left: .5em;
+	list-style: none;
+}
+
+.menu li {
+	padding-bottom: .25em;
+}
+
+footer li {
+	padding-top: 14px;
+}
+
+.main-doc>:first-child {
+	margin-top: 0!important;
+}
+
+table:not(.aw-table) {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+table:not(.aw-table) td, table:not(.aw-table) th {
+	padding: .5em;
+	border: 1px solid #ddd;
+	text-align: center;
+}

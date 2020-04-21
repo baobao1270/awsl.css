@@ -1,0 +1,1 @@
+scp -r ./docs/* hk:/var/www/awsl.css/

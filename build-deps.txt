@@ -1,0 +1,4 @@
+Markdown==3.2.1
+rcssmin==1.0.6
+Pygments==2.6.1
+htmlmin==0.1.12
