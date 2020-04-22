@@ -50,3 +50,4 @@ with open('awsl.css', 'r') as inf:
 shutil.copyfile(root_dir + '/awsl.min.css', root_dir + '/docs/awsl.min.css')
 print('Builing and copying: codehilite.css')
 shutil.copyfile(root_dir + '/doc-src/_codehilite.css', root_dir + '/docs/codehilite.css')
+shutil.copyfile(root_dir + '/icon.ico', root_dir + '/docs/favicon.ico')
